@@ -1,7 +1,7 @@
-import { Addressable } from "@/types/interfaces/Addressable"
-import { Attachment } from "@/types/interfaces/Attachment"
-import { Buffer } from "@/types/interfaces/Buffer"
-import { Compiler } from "@/types/compiler"
+import { Addressable } from '@/types/interfaces/Addressable'
+import { Attachment } from '@/types/interfaces/Attachment'
+import { Buffer } from '@/types/interfaces/Buffer'
+import { Compiler } from '@/types/compiler'
 
 export interface Payload {
     compiler?: Compiler
