@@ -1,3 +1,3 @@
-import { Cliam } from '@/classes/cliam'
+import { NMS } from '@/classes/nms'
 
-export { Cliam }
+export { NMS }

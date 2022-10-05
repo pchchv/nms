@@ -5,8 +5,8 @@ import { Container } from '@/services/container'
 import { Emitter } from '@/services/emitter'
 import { Event } from '@/types/event'
 
-class Cliam {
-    private static instance: Cliam
+class NMS {
+    private static instance: NMS
     private emitter: Emitter
     private constructor(emitter: Emitter) {
         this.emitter = emitter
@@ -27,11 +27,11 @@ class Cliam {
         this.subscribe('password.request')
         this.subscribe('password.updated')
     }
-    static get(emitter: Emitter): Cliam {
-        if (!Cliam.instance) {
-            Cliam.instance = new Cliam(emitter)
+    static get(emitter: Emitter): NMS {
+        if (!NMS.instance) {
+            NMS.instance = new NMS(emitter)
         }
-        return Cliam.instance
+        return NMS.instance
     }
     subscribe(event: Event|string) {
         this.emitter.subscribe(event)
@@ -41,6 +41,6 @@ class Cliam {
     }
 }
 
-const cliam = Cliam.get( Emitter.get( Container.configuration ) ) as { emit: (event: Event|string, payload: Payload) =>  Promise<SendingResponse | SendingError>, subscribe: (event: Event|string) => void }
+const cliam = NMS.get( Emitter.get( Container.configuration ) ) as { emit: (event: Event|string, payload: Payload) =>  Promise<SendingResponse | SendingError>, subscribe: (event: Event|string) => void }
 
-export { cliam as Cliam }
+export { cliam as NMS }
