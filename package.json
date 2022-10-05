@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "chalk": "^4.1.0",
-    "color": "4.1.0",
+    "color": "^4.2.3",
     "hbs": "4.2.0",
     "html-to-text": "8.1.0",
     "joi": "17.5.0",
@@ -31,7 +31,9 @@
     "nodemailer-sparkpost-transport": "^2.2.0"
   },
   "devDependencies": {
+    "@types/color": "^3.0.3",
     "@types/hbs": "4.0.1",
+    "@types/html-to-text": "^8.1.1",
     "@types/node": "16.11.17",
     "@types/node-mailjet": "3.3.7",
     "@types/nodemailer": "6.4.4",

@@ -439,12 +439,36 @@
   resolved "https://registry.npmjs.org/@types/caseless/-/caseless-0.12.2.tgz"
   integrity sha512-6ckxMjBBD8URvjB6J3NcnuAn5Pkl7t3TizAg+xdlzzQGSPSmBcXf8KoIH0ua/i+tio+ZRUHEXp0HEmvaR4kt0w==
 
+"@types/color-convert@*":
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/@types/color-convert/-/color-convert-2.0.0.tgz"
+  integrity sha512-m7GG7IKKGuJUXvkZ1qqG3ChccdIM/qBBo913z+Xft0nKCX4hAU/IxKwZBU4cpRZ7GS5kV4vOblUkILtSShCPXQ==
+  dependencies:
+    "@types/color-name" "*"
+
+"@types/color-name@*":
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/@types/color-name/-/color-name-1.1.1.tgz"
+  integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
+
+"@types/color@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.npmjs.org/@types/color/-/color-3.0.3.tgz"
+  integrity sha512-X//qzJ3d3Zj82J9sC/C18ZY5f43utPbAJ6PhYt/M7uG6etcF6MRpKdN880KBy43B0BMzSfeT96MzrsNjFI3GbA==
+  dependencies:
+    "@types/color-convert" "*"
+
 "@types/hbs@4.0.1":
   version "4.0.1"
   resolved "https://registry.npmjs.org/@types/hbs/-/hbs-4.0.1.tgz"
   integrity sha512-kbgeYPLGOG8LQhqNlAvMm7vMz6Iu3IaXDEufpkEYT/viTko1ZlIrj+b6lvo4cAIDRkh6eg+JdKVZkriDGTisEw==
   dependencies:
     handlebars "^4.1.0"
+
+"@types/html-to-text@^8.1.1":
+  version "8.1.1"
+  resolved "https://registry.npmjs.org/@types/html-to-text/-/html-to-text-8.1.1.tgz"
+  integrity sha512-QFcqfc7TiVbvIX8Fc2kWUxakruI1Ay6uitaGCYHzI5M0WHQROV5D2XeSaVrK0FmvssivXum4yERVnJsiuH61Ww==
 
 "@types/json-schema@^7.0.3":
   version "7.0.11"
@@ -604,7 +628,7 @@ acorn@^8.4.1:
 
 addressparser@1.0.1, addressparser@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/addressparser/-/addressparser-1.0.1.tgz#47afbe1a2a9262191db6838e4fd1d39b40821746"
+  resolved "https://registry.npmjs.org/addressparser/-/addressparser-1.0.1.tgz"
   integrity sha512-aQX7AISOMM7HFE0iZ3+YnD07oIeJqWGVnJ+ZIKaBZAk03ftmVYVqsGas/rbXKR21n4D/hKCSHypvcyOkds/xzg==
 
 agent-base@6, agent-base@^6.0.0, agent-base@^6.0.2:
@@ -824,7 +848,7 @@ aws4@^1.8.0:
 
 axios@^0.25.0:
   version "0.25.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.25.0.tgz#349cfbb31331a9b4453190791760a8d35b093e0a"
+  resolved "https://registry.npmjs.org/axios/-/axios-0.25.0.tgz"
   integrity sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==
   dependencies:
     follow-redirects "^1.14.7"
@@ -1129,10 +1153,10 @@ color-string@^1.9.0:
     color-name "^1.0.0"
     simple-swizzle "^0.2.2"
 
-color@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/color/-/color-4.1.0.tgz"
-  integrity sha512-o2rkkxyLGgYoeUy1OodXpbPAQNmlNBrirQ8ODO8QutzDiDMNdezSOZLNnusQ6pUpCQJUsaJIo9DZJKqa2HgH7A==
+color@^4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/color/-/color-4.2.3.tgz#d781ecb5e57224ee43ea9627560107c0e0c6463a"
+  integrity sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A==
   dependencies:
     color-convert "^2.0.1"
     color-string "^1.9.0"
@@ -1493,7 +1517,7 @@ emoji-regex@^8.0.0:
 
 encoding-japanese@2.0.0:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/encoding-japanese/-/encoding-japanese-2.0.0.tgz#fa0226e5469e7b5b69a04fea7d5481bd1fa56936"
+  resolved "https://registry.npmjs.org/encoding-japanese/-/encoding-japanese-2.0.0.tgz"
   integrity sha512-++P0RhebUC8MJAwJOsT93dT+5oc5oPImp1HubZpAuCZ5kTLnhuuBhKHj2jJeO/Gj93idPBWmIuQ9QWMe5rX3pQ==
 
 end-of-stream@^1.1.0:
@@ -2374,7 +2398,7 @@ iconv-lite@0.4.24:
 
 iconv-lite@0.6.3:
   version "0.6.3"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.6.3.tgz#a52f80bf38da1952eb5c681790719871a1a72501"
+  resolved "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz"
   integrity sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==
   dependencies:
     safer-buffer ">= 2.1.2 < 3.0.0"
@@ -2942,12 +2966,12 @@ levn@~0.3.0:
 
 libbase64@1.2.1, libbase64@^1.2.1:
   version "1.2.1"
-  resolved "https://registry.yarnpkg.com/libbase64/-/libbase64-1.2.1.tgz#fb93bf4cb6d730f29b92155b6408d1bd2176a8c8"
+  resolved "https://registry.npmjs.org/libbase64/-/libbase64-1.2.1.tgz"
   integrity sha512-l+nePcPbIG1fNlqMzrh68MLkX/gTxk/+vdvAb388Ssi7UuUN31MI44w4Yf33mM3Cm4xDfw48mdf3rkdHszLNew==
 
 libmime@^5.0.0:
   version "5.1.0"
-  resolved "https://registry.yarnpkg.com/libmime/-/libmime-5.1.0.tgz#d9a1c4a85c982fa4e64c2c841f95e3827c3f71d2"
+  resolved "https://registry.npmjs.org/libmime/-/libmime-5.1.0.tgz"
   integrity sha512-xOqorG21Va+3CjpFOfFTU7SWohHH2uIX9ZY4Byz6J+lvpfvc486tOAT/G9GfbrKtJ9O7NCX9o0aC2lxqbnZ9EA==
   dependencies:
     encoding-japanese "2.0.0"
@@ -2957,7 +2981,7 @@ libmime@^5.0.0:
 
 libqp@1.1.0:
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/libqp/-/libqp-1.1.0.tgz#f5e6e06ad74b794fb5b5b66988bf728ef1dedbe8"
+  resolved "https://registry.npmjs.org/libqp/-/libqp-1.1.0.tgz"
   integrity sha512-4Rgfa0hZpG++t1Vi2IiqXG9Ad1ig4QTmtuZF946QJP4bPqOYC78ixUXgz5TW/wE7lNaNKlplSYTxQ+fR2KZ0EA==
 
 load-json-file@^2.0.0:
@@ -3082,7 +3106,7 @@ make-error@^1.1.1:
 
 mandrill-api@^1.0.45:
   version "1.0.45"
-  resolved "https://registry.yarnpkg.com/mandrill-api/-/mandrill-api-1.0.45.tgz#163939cf486bd18277b0f3baf412c3e65d84a72d"
+  resolved "https://registry.npmjs.org/mandrill-api/-/mandrill-api-1.0.45.tgz"
   integrity sha512-Hbr6z1AeReym0uVfGXNwyfGmyd7wZ81lsJg/iaogSDycI8J1lVjTx91u4pr4VSW3+fRqVASqre17ebHOr7yNKQ==
 
 memorystream@^0.3.1:
@@ -3282,7 +3306,7 @@ node-releases@^2.0.6:
 
 nodemailer-build-attachment@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.yarnpkg.com/nodemailer-build-attachment/-/nodemailer-build-attachment-3.0.0.tgz#8540d8de815fc504b6350d80204a0385b04a9cc2"
+  resolved "https://registry.npmjs.org/nodemailer-build-attachment/-/nodemailer-build-attachment-3.0.0.tgz"
   integrity sha512-8hoic5t/tpNMfrRoHW7rwpEpjrp1ZMSYloBZHhCZHnin+Htxr+egR4ufrFeHC0ueSFjmsvMDr5veaQ4KpYvTNA==
   dependencies:
     libbase64 "^1.2.1"
@@ -3291,7 +3315,7 @@ nodemailer-build-attachment@^3.0.0:
 
 nodemailer-fetch@^2.1.0:
   version "2.1.0"
-  resolved "https://registry.yarnpkg.com/nodemailer-fetch/-/nodemailer-fetch-2.1.0.tgz#41f631d16b31da55e28249688b329167ddd0d651"
+  resolved "https://registry.npmjs.org/nodemailer-fetch/-/nodemailer-fetch-2.1.0.tgz"
   integrity sha512-XwPvtBfUgIHhrJora9wIRbI4fvx8iYpSE2iItpM3e+SnsVRKm+9UeMfKQbk8I1WcOaT370E8oaLJE/vN15/ggQ==
 
 nodemailer-mailgun-transport@^2.1.5:
@@ -3305,7 +3329,7 @@ nodemailer-mailgun-transport@^2.1.5:
 
 nodemailer-mandrill-transport@^1.2.0:
   version "1.2.0"
-  resolved "https://registry.yarnpkg.com/nodemailer-mandrill-transport/-/nodemailer-mandrill-transport-1.2.0.tgz#69969029d259b46921cc12db70ca1551bf394b04"
+  resolved "https://registry.npmjs.org/nodemailer-mandrill-transport/-/nodemailer-mandrill-transport-1.2.0.tgz"
   integrity sha512-Dli7B8D0Q2EkLi01ajSS4zaSfB1Vpv0s5539Dgjr6/XmQaXX7zVtzUvicWg38brgmFAaQ3HyXNFK6lWsF5I27A==
   dependencies:
     addressparser "^1.0.1"
@@ -3322,7 +3346,7 @@ nodemailer-mock@1.5.11:
 
 nodemailer-postmark-transport@^5.2.1:
   version "5.2.1"
-  resolved "https://registry.yarnpkg.com/nodemailer-postmark-transport/-/nodemailer-postmark-transport-5.2.1.tgz#0233cd106aac8ea4a8aaf17bb6ab3315b92259d5"
+  resolved "https://registry.npmjs.org/nodemailer-postmark-transport/-/nodemailer-postmark-transport-5.2.1.tgz"
   integrity sha512-PG9sXWzY7FKAFVr4VRetzk0PqiToBtDH0Hf7Q9dBoswr+rufpha5yXybLtLEFzmr4y1/5NE3MiwxGE/MdbHREw==
   dependencies:
     addressparser "^1.0.1"
@@ -3339,7 +3363,7 @@ nodemailer-sendgrid@^1.0.3:
 
 nodemailer-sendinblue-v3-transport@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/nodemailer-sendinblue-v3-transport/-/nodemailer-sendinblue-v3-transport-1.0.1.tgz#7a1c8a775cbcb04a15c59d5083697440902123d4"
+  resolved "https://registry.npmjs.org/nodemailer-sendinblue-v3-transport/-/nodemailer-sendinblue-v3-transport-1.0.1.tgz"
   integrity sha512-I7mOKF2ret8kuQu2deiSfxg3PKZTNFHLoIHcZaRdeH4Jmky+Rfi2lMdPg+gKtsW4j5XWyaAqBUzo4TJS/tdhjQ==
   dependencies:
     addressparser "1.0.1"
@@ -3353,7 +3377,7 @@ nodemailer-ses-transport@^1.5.1:
 
 nodemailer-sparkpost-transport@^2.2.0:
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/nodemailer-sparkpost-transport/-/nodemailer-sparkpost-transport-2.2.0.tgz#77199e5bebe861d58f934b991016ff79f5c1a11a"
+  resolved "https://registry.npmjs.org/nodemailer-sparkpost-transport/-/nodemailer-sparkpost-transport-2.2.0.tgz"
   integrity sha512-7o73oWUbF/dXcwD8XuQTfQnMY7LfBSfvF0y9v7I4nfMjhXBf70/AISnDaszmdROdm8dJOyKrVpL9T/KRkdfdFQ==
   dependencies:
     sparkpost "^2.1.0"
@@ -3767,7 +3791,7 @@ pkg-dir@^4.1.0:
 
 postmark@^2.7.4:
   version "2.9.5"
-  resolved "https://registry.yarnpkg.com/postmark/-/postmark-2.9.5.tgz#d863f3cea6242c1531ace3c53756f706f32d3eeb"
+  resolved "https://registry.npmjs.org/postmark/-/postmark-2.9.5.tgz"
   integrity sha512-F27gc6wrxdn7GADodGpECoWez7FK2Pdach7A9ni5vVZiYz1YUY7T68nvVCzxrbWCjOS7ZujyclYlq1C0a4ar1w==
   dependencies:
     axios "^0.25.0"
@@ -4285,7 +4309,7 @@ source-map@^0.6.1, source-map@~0.6.1:
 
 sparkpost@^2.1.0:
   version "2.1.4"
-  resolved "https://registry.yarnpkg.com/sparkpost/-/sparkpost-2.1.4.tgz#f099526b7800deff672b7a7ce60ef2b5266c3251"
+  resolved "https://registry.npmjs.org/sparkpost/-/sparkpost-2.1.4.tgz"
   integrity sha512-7yvpfLVCnCVaE1yexemHNDX2bLkG3Lel14aCwj1ZCAX8Aa4OjYCP7uWPOkSwwXLYfQZRUgdwxgzXwaIDiYVx7A==
   dependencies:
     lodash "^4.17.2"
