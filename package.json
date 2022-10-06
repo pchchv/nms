@@ -1,6 +1,6 @@
 {
   "name": "nms",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Agnostic transactional email sending in Node.js environment",
   "main": "dist/index.js",
   "repository": "git@github.com:pchchv/nms.git",
